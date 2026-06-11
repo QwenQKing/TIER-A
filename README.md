@@ -12,13 +12,13 @@ export LLM_MODEL=gpt-4o-mini
 ## Build
 
 ```bash
-bash scripts/build_databases.sh    # EEH (5 datasets)
-bash scripts/build_expr.sh         # CSM (Astock only)
+bash scripts/build_databases.sh
+bash scripts/build_expr.sh
 ```
 
 ## Evaluate
 
 ```bash
-bash scripts/eval.sh               # inference on 128 held-out catalysts per dataset
-bash scripts/get_score.sh          # Acc / MCC / F1
+bash scripts/eval.sh
+bash scripts/get_score.sh
 ```
